@@ -1,7 +1,6 @@
 <?php
 
+use Demoapp\Todoapp\Http\Controllers\TodosController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('todos', function() {
-    return 'Welcome to Todo App.';
-});
+Route::get('todos', [TodosController::class, 'todos']);
