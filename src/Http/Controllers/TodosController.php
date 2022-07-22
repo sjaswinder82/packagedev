@@ -6,6 +6,6 @@ class TodosController extends Controller
 {
     public function todos()
     {
-        return "Welcome to the Todos App.";
+        return view('todoapp::todos.index');
     }
 }
