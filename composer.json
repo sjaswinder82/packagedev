@@ -7,6 +7,13 @@
             "Demoapp\\Todoapp\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Demoapp\\Todoapp\\TodoAppServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev",
     "require": {}
 }
